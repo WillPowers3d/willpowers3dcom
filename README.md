@@ -29,12 +29,10 @@ Gallery photos live under `static/btpics/` (used on `/work`) and `static/mdpics/
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install flask
-python app.py
+python3 app.py
 ```
 
-Then open http://127.0.0.1:5000 (Flask’s default host and port).
-
-The committed PyCharm settings and bytecode target Python 3.9. Any current Python 3 that can install Flask should be enough to run the app.
+Then open http://127.0.0.1:5000 (Flask’s default host and port). Python 3 is required.
 
 ## License
 
